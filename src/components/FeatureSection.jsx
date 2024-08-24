@@ -40,7 +40,7 @@ const FeatureSection = () => {
         ))}
       </div>
       <a href="./safari">Safari here</a>
-      <a href="./safari">NFT here</a>
+      <a href="./nft">NFT here</a>
     </div>
   );
 };
