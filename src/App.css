@@ -231,3 +231,20 @@ video {
   background-color: #0056b3;
 }
 */
+
+.button { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn { 
+  height : 40px;
+  width: 250px;
+  border: 2px solid orangered;
+  background-color:rgba(134, 41, 16, 0.815) ;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  border-radius: 10px ;
+  text-align: center;
+}
