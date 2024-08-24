@@ -79,3 +79,17 @@ header nav:hover > a:not(:hover) {
 .about h1 {
     font-size: 40px;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+    color: #00eaff;
+    transition: all .4s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #05e1d6;
+    border-radius: 4px;
+    width: 4px;
+    transition: all .4s ease;
+  }
+  

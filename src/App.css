@@ -248,3 +248,16 @@ video {
   border-radius: 10px ;
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  color: #FFDE59;
+  transition: all .4s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFDE59;
+  border-radius: 4px;
+  width: 4px;
+  transition: all .4s ease;
+}
