@@ -15,10 +15,10 @@ const FeatureSection = () => {
     <div className="relative py-20 border-b border-neutral-800 min-h-[700px] landing_bg_animal">
       <div className="text-center">
     
-        <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
-          India's Heritage{" "}
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl mt-10 lg:mt-20 tracking-wide">
+          Promoting Wildlife Conservation{" "}
           <span className="bg-gradient-to-r from-orange-500 to-yellow-400 text-transparent bg-clip-text">
-            Artforms and Textiles
+            with the Beauty of Nature
           </span>
         </h2>
       </div>

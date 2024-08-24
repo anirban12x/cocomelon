@@ -179,3 +179,55 @@ code {
 #manonmountain {
   background-image: url(./images/man_on_mountain.png);
 }
+
+/* adding the CSS of the SAFARI Page 
+
+.landing_bg_animal { 
+   
+  background-image: url(../public/landing_bg_animal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
+  width: 100%;
+}
+
+.background-safari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  margin: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+*/

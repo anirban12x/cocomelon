@@ -68,40 +68,24 @@ export const testimonials = [
 export const features = [
   {
     icon:"",
-    text: "Madhubani Painting (Bihar)",
+    text: " Enhancing Safari Experience",
     description:
-      "Traditional art form using natural dyes and pigments, characterized by intricate patterns and vibrant colors.",
+      "We provide live Wildlife Locations to the Safari Tourists. Our ML Model detects the species with great accuracy",
   },
   {
     icon:"",
-    text: "Chikankari Embroidery (UP)",
+    text: "Giving Wildlife Tokens",
     description:
-      "Delicate and intricate hand embroidery using white thread on fine fabrics like muslin, silk, and chiffon.",
+      "Our Unique NFT Tokens act as a Collectables for the Tourists . The collected money is spend towards Wildlife conservations.",
   },
   {
     icon:"",
-    text: "Pattachitra (Odisha & WB)",
+    text: " Rewarding Nature Lovers ",
     description:
-      "Cloth-based scroll painting known for its intricate details and mythological narratives.",
+      " Users who walks steps and reduce carbon footprints are rewarded with Reedemable Tokens .",
   },
-  {
-    icon:"",
-    text: "Kalamkari (Andhra Pradesh)",
-    description:
-      "Hand-painted or block-printed cotton textile, known for its detailed and intricate designs.",
-  },
-  {
-    icon:"",
-    text: "Kutch Embroidery (Gujarat)",
-    description:
-      "Vibrant and intricate embroidery with mirror work, practiced by the tribal communities of Kutch.",
-  },
-  {
-    icon:"",
-    text: "And Many More...",
-    description:
-      " ",
-  },
+  
+
 ];
 
 export const checklistItems1 = [

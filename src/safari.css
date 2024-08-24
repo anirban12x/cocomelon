@@ -1,0 +1,56 @@
+body {
+  background-image: url('../public/landing_bg_animal.png');
+  background-size: cover;   /* Ensure the image covers the entire body */
+  background-position:center;  /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-color: transparent; /* Ensure no background color is set */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+
+.background-safari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  margin: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  pointer-events: none; /* Prevents the play button from being displayed */
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
