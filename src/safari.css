@@ -23,14 +23,16 @@ body {
 .video-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 20px;
+ 
 }
 
 .video-container {
   margin: 10px;
   width: 45%;
   text-align: center;
+  
 }
 
 video {
