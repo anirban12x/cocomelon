@@ -1,6 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-image: url("./bgback3.png"); */
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.810);
+  backdrop-filter: blur(3px);
+
+height: max-content;
+color: white;
+}
+
+code {
+  font-family:  "Poppins", sans-serif;
+  color-scheme: dark;
+}
+
+
+.bg-glow-custom-2:hover{
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 15px 10px rgba(239, 149, 40, 0.85);
+
+}
+.container{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container h1{
+  font-size: 2.5rem;
+  color: rgba(239, 149, 40, 0.85);
+  font-family: Poppins;
+}
+.container p{
+  font-size: 1.5rem;
+  color: rgba(239, 149, 40, 0.6);
+  font-family: Poppins;
+}
+
+.explore {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: Poppins;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.wallet{
+  width: 50px;
+
+}
+
+.underline-effect {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  }
+  
+  .underline-effect::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background-color: orange; /* Customize the color as needed */
+  transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .underline-effect:hover::after {
+  width: 100%;
+  left: 0;
+  }
+
 #textblock {
-  background-color: #210002;
-  height: 100vh;
+  background-image: url(../public/landing_bg_animal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max-content;
 }
 
 #textblock-container {
@@ -32,7 +114,6 @@
   align-items:center;
   text-align:center;
   margin-bottom: 20px;
-
 }
 
 #textblock-devsense {
