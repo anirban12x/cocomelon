@@ -7,6 +7,8 @@ import Mount2 from "../images/mount2.png";
 import Bush2 from "../images/bush2.png";
 import Leaf1 from "../images/leaf1.png";
 import Leaf2 from "../images/leaf2.png";
+import Dora from "../images/Doeramon1.png";
+
 
 function NFT() {
   useEffect(() => {
@@ -51,7 +53,21 @@ function NFT() {
 
       <section className="about">
         <h1>Tokens</h1>
-        {/* Your content here */}
+        <div className='nfts'>
+          <div className='nfts-img'>
+            <img src={Dora} alt="" />
+            
+            <button className='button-1'>Buy Now</button>
+          </div>
+          <div className='nfts-img'>
+            <img src={Dora} alt="" />
+            <button className='button-1'>Buy Now</button>
+          </div>
+          <div className='nfts-img'>
+            <img src={Dora} alt="" />
+            <button className='button-1'>Buy Now</button>
+            </div>
+          </div>
       </section>
     </div>
   );
