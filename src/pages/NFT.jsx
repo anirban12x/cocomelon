@@ -44,7 +44,7 @@ function NFT() {
         <img src={Mount1} className="mount1" alt="Mountain 1" />
         <img src={Bush2} className="bush2" alt="Bush 2" />
 
-        <h1 className="title">WildLife Tokens</h1>
+        <h2 className="title">WildLife Tokens</h2>
 
         <img src={Img1} className="bush1" alt="Bush 1" />
         <img src={Leaf2} className="leaf2" alt="Leaf 2" />
@@ -52,20 +52,20 @@ function NFT() {
       </section>
 
       <section className="about">
-        <h1>Tokens</h1>
+        <h2>Tokens</h2>
         <div className='nfts'>
           <div className='nfts-img'>
             <img src={Dora} alt="" />
             
-            <button className='button-1'>Buy Now</button>
+            <button className='button-1'>Support Now</button>
           </div>
           <div className='nfts-img'>
             <img src={Dora} alt="" />
-            <button className='button-1'>Buy Now</button>
+            <button className='button-1'>Support Now</button>
           </div>
           <div className='nfts-img'>
             <img src={Dora} alt="" />
-            <button className='button-1'>Buy Now</button>
+            <button className='button-1'>Support Now</button>
             </div>
           </div>
       </section>
