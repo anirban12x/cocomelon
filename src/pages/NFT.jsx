@@ -7,7 +7,10 @@ import Mount2 from "../images/mount2.png";
 import Bush2 from "../images/bush2.png";
 import Leaf1 from "../images/leaf1.png";
 import Leaf2 from "../images/leaf2.png";
-import Dora from "../images/Doeramon1.png";
+import pic1 from "../images/1.png";
+import pic2 from "../images/2.png";
+import pic3 from "../images/3.png";
+
 
 
 function NFT() {
@@ -55,17 +58,26 @@ function NFT() {
         <h2>Tokens</h2>
         <div className='nfts'>
           <div className='nfts-img'>
-            <img src={Dora} alt="" />
+            <img src={pic1} alt="" />
             
             <button className='button-1'>Support Now</button>
           </div>
           <div className='nfts-img'>
+<<<<<<< Updated upstream
             <img src={Dora} alt="" />
             <button className='button-1'>Support Now</button>
           </div>
           <div className='nfts-img'>
             <img src={Dora} alt="" />
             <button className='button-1'>Support Now</button>
+=======
+            <img src={pic2} alt="" />
+            <button className='button-1'>Buy Now</button>
+          </div>
+          <div className='nfts-img'>
+            <img src={pic3} alt="" />
+            <button className='button-1'>Buy Now</button>
+>>>>>>> Stashed changes
             </div>
           </div>
       </section>
